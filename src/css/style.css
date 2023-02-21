@@ -44,7 +44,7 @@
   border-radius: 8px;
   padding: 15px;
   border: 1px solid rgba(0, 0, 0, 0.3);
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 13px;
   text-align: left;
@@ -58,7 +58,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .search_content_bars--dark {
-  background-color: #0C0C0C;
+  background-color: #0c0c0c;
   border-color: #fff;
   color: #fff;
 }
@@ -99,7 +99,7 @@
   border: 1px solid #000;
 }
 .search_content_bars_input--dark {
-  background: #0C0C0C;
+  background: #0c0c0c;
   color: #fff;
   border-color: #fff;
 }
@@ -130,10 +130,10 @@
 }
 .search_content_select ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #7B7B7B;
+  background: #7b7b7b;
 }
 .search_content_select::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 18px;
@@ -155,7 +155,7 @@
   border-color: rgba(255, 255, 255, 0.3) transparent;
 }
 .search_content_select .clear::after {
-  content: '\00d7';
+  content: "\00d7";
   position: absolute;
   top: 50%;
   right: 36px;
@@ -191,7 +191,7 @@
   font-weight: 500;
 }
 .search_content_dropdown--dark {
-  background-color: #0C0C0C;
+  background-color: #0c0c0c;
   border-color: #fff;
   color: #fff;
 }
@@ -252,7 +252,7 @@
 .search_content_dropdown_created input {
   border: 0;
   box-sizing: border-box;
-  background: #EFEFEF;
+  background: #efefef;
   border-radius: 8px;
   width: 95px;
   height: 45px;
@@ -269,7 +269,7 @@
   height: 0px;
 }
 .search_content_dropdown_created--dark {
-  background-color: #0C0C0C;
+  background-color: #0c0c0c;
   border-color: #fff;
 }
 .search_content_dropdown_created--dark span {
@@ -424,7 +424,7 @@
   pointer-events: none;
 }
 .pagination_content .pagination_content_button:hover {
-  background: #EDEDED;
+  background: #ededed;
 }
 .pagination_content .pagination_content_button--dark {
   border-color: #fff;
@@ -464,7 +464,7 @@
 .container {
   max-width: 1120px;
   margin: 0 auto;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 @media screen and ((max-width: 1366px)) {
   .container {

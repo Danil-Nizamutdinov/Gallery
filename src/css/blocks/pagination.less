@@ -1,77 +1,75 @@
 // main: "../style.less"
 
-.pagination_content{
-    padding: 45px 0;
-    
-    & .pagination_content_button{
-        border: 1px solid #000;
-        border-right: 0;
-        width: 40px;
-        height: 40px;
-        transition: all 0.3s;
-        font-size: 18px;
-        font-weight: 500;
+.pagination_content {
+  padding: 45px 0;
 
-        cursor: pointer;
+  & .pagination_content_button {
+    border: 1px solid #000;
+    border-right: 0;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s;
+    font-size: 18px;
+    font-weight: 500;
 
-        &--active{
-            background: #000;
-            color: #fff;
-            pointer-events: none;
-        }
-        
-        &:disabled{
-            border: 1px solid rgba(0, 0, 0, 0.3);
-            pointer-events: none;
-        }
+    cursor: pointer;
 
-        &:hover{
-            background: #EDEDED;
-        }
-
-        &--dark{
-            border-color: #fff;
-            background: #000;
-            color: #fff;
-        }
-
-        &--dark:disabled{
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: rgba(255, 255, 255, 0.3);
-        }
-
-        &--dark:hover{
-            background: #464646;
-        }
-
-        &--active--dark{
-            background: #fff;
-            color: #000;
-            pointer-events: none;
-        }
-
+    &--active {
+      background: #000;
+      color: #fff;
+      pointer-events: none;
     }
 
-    & .pagination_content_button:last-child{
-        border-right: 1px solid #000;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-
-    }
-    & .pagination_content_button:first-child{
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+    &:disabled {
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      pointer-events: none;
     }
 
-    & .pagination_content_button--dark:last-child{
-        border-right: 1px solid #fff;
+    &:hover {
+      background: #ededed;
     }
 
-    & .pagination_content_button:disabled{
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    &--dark {
+      border-color: #fff;
+      background: #000;
+      color: #fff;
     }
 
-    & .pagination_content_button--dark:disabled{
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
+    &--dark:disabled {
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: rgba(255, 255, 255, 0.3);
     }
+
+    &--dark:hover {
+      background: #464646;
+    }
+
+    &--active--dark {
+      background: #fff;
+      color: #000;
+      pointer-events: none;
+    }
+  }
+
+  & .pagination_content_button:last-child {
+    border-right: 1px solid #000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  & .pagination_content_button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  & .pagination_content_button--dark:last-child {
+    border-right: 1px solid #fff;
+  }
+
+  & .pagination_content_button:disabled {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  & .pagination_content_button--dark:disabled {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
 }
